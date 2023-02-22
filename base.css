@@ -1,0 +1,218 @@
+body {
+    text-align: center;
+    line-height: 1.5rem;
+    background: url(assets/bg3.jpg) repeat center/cover;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+main {
+    height: 100%;
+    font-family: 'Courgette', cursive;
+    background: url(assets/bg3.jpg) repeat center/cover;
+    padding: 0 2rem;
+}
+
+
+
+
+
+footer {
+    height: 10rem;
+    background-color: hsla(0, 0%, 2%, 0.315);
+}
+
+
+
+
+
+.heroe-text,
+.logo,
+h1 {
+    font-family: 'Parisienne', cursive;
+}
+
+
+
+
+
+h1,
+h2,
+h3,
+p {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.title {
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: bold;
+    position: relative;
+    top: 3rem;
+}
+
+
+
+
+
+.pages {
+    height: 100vh;
+}
+
+
+
+
+
+/* = = = = = = = = = =*\
+        NAV PARTS
+\* = =  = = = = = = = */
+
+ul {
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+li {
+    white-space: nowrap;
+    padding: .5rem 2rem;
+}
+
+li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+
+
+.btn {
+    background-color: lightgrey;
+    margin-bottom: .2rem;
+    border: 1px solid blanchedalmond;
+}
+
+
+
+
+
+header {
+    margin-bottom: 1 rem;
+    display: flex;
+    height: 4.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+.burger {
+    position: fixed;
+    left: 1rem;
+    top: .5rem;
+    z-index: 2;
+}
+
+
+
+
+
+/*======== HEADER TEXT PARTS ===== */
+
+.heroe-text {
+    display: flex;
+    background-color: hsla(0, 0%, 2%, 0.315);
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
+}
+
+.heroe-text h1 {
+    font-size: 2rem;
+}
+
+.heroe-text h2 div {
+    font-size: 1.3rem;
+}
+
+.heroe-text div {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+
+/*======== MAIN PARTS PAGE 1 ===== */
+
+.img-box {
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+
+.img-box:hover {
+    box-shadow: 0px -1px 40px 9px grey;
+    border: 1px solid white;
+    transform: scale(1.3);
+}
+
+.center:hover {
+    box-shadow: 10px 10px 10px grey;
+    border: 1px solid white;
+    transform: scale(1.7);
+}
+
+
+/*======== MAIN PARTS PAGE 2 ===== */
+
+.katt-ide {
+    position: relative;
+    height: 3rem;
+    width: 40%;
+    bottom: -1.3rem;
+    border-radius: 20rem;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+/*  = = = = = = = = = = == =*\
+   PAGE 3 IMAGE GRID PARTS
+/*  = = = = = = = = = = == =*/
+iframe,
+video {
+  display: block;
+  margin: 1em auto;
+  width: 70%;
+  height: calc(.5625 * 70vw);
+  min-height: 30vw;
+}
+
+#page3 {
+  display: flex;
+  height: calc(100vh - 30rem);
+  flex-direction: column;
+}
+
+
+#page3 .helyszín {
+    position: relative;
+    bottom: -18rem;
+}
+
